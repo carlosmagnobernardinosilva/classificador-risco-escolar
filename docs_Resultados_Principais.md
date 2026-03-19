@@ -206,27 +206,10 @@ Vencedor: Undersampling
 ### 4.1 Interpretação da Curva ROC
 
 **A Curva ROC do Modelo XGBoost Final**:
+<img width="935" height="650" alt="image" src="https://github.com/user-attachments/assets/cbaaa1cf-08f8-4be8-a89e-105e1cc55200" />
 
-```
-Gráfico:
-1.0 ┌──────────────────────────────────┐
-    │                    ╱             │
-    │                  ╱ ← Curva XGB   │
-    │                ╱                 │
-    │              ╱                   │
-    │            ╱                     │
-    │          ╱                       │
-    │        ╱                         │
-    │      ╱                           │
-0.5 ├─────────────────────────────────┤ (baseline)
-    │    ╱                             │
-    │  ╱                               │
-    │╱                                 │
-0.0 └──────────────────────────────────┘
-    0.0                              1.0
-    (Taxa Falsos Positivos)
-```
 
+---
 ### 4.2 O que Significa AUC = 0.959
 
 **Interpretação Matemática**:
@@ -478,8 +461,4 @@ Melhor Performance:   AUC 0.959
 - Features limitadas (apenas 2 principais)
 - Possível overfitting (AUC muito alto)
 
----
 
-**Última atualização**: Março 2025
-**Status**: ✅ Completo
-**Autor**: Carlos Magno Bernardino da Silva
