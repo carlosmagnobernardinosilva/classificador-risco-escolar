@@ -10,10 +10,11 @@
 
 ## 📖 Sobre o Projeto
 
-Este repositório contém a documentação, metodologia e insights principais de um **Trabalho de Conclusão de Curso** em Data Science Analytics, focado no desenvolvimento de um sistema de diagnóstico baseado em machine learning.
+Este repositório contém a documentação, metodologia e insights principais de um **Trabalho de Conclusão de Curso** em Data Science Analytics pela Universidade de São Paulo, focado no desenvolvimento de um sistema de diagnóstico baseado em machine learning.
 
 **Objetivo Principal**: Identificar padrões e variáveis preditoras de reprovação escolar em instituições de ensino público, permitindo intervenções pedagógicas preventivas e direcionadas.
 
+**Todos os dados e notebooks são exemplos, pois contem dados sensiveis que não podem ser apresentados**
 ### 📊 Características do Estudo
 
 - **Instituição**: Escola da rede pública de Minas Gerais, Brasil
