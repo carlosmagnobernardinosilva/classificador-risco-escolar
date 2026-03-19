@@ -233,14 +233,6 @@ pytest tests/
    - Com apenas 2 variáveis, separação clara entre classes
    - **Mitigação**: Validação cruzada reduz este risco
 
-### 💡 Recomendações para Trabalhos Futuros
-
-- [ ] Coletar dados de múltiplas instituições
-- [ ] Incluir variáveis socioeconômicas (renda, escolaridade dos responsáveis)
-- [ ] Adicionar avaliações comportamentais dos professores
-- [ ] Criar dashboard interativo para gestores
-- [ ] Testar em tempo real com intervenções pedagógicas
-
 ---
 
 ## 📊 Comparação de Modelos
