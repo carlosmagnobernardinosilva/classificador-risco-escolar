@@ -73,9 +73,8 @@ Normalização Numéricas:
 
 | Coluna | Problema | % NaN | Solução |
 |--------|----------|-------|---------|
-| `Total_Faltas_Minutos` | Registros faltantes | ~3% | Imputação pela média individual |
-| `Key` (tom musical) | Não aplicável | ~10% | Substituir por "Miss_verificar" |
-| `in_shazam_charts` | Dados ausentes | ~6% | Substituir por 9999 (marcador) |
+| `Aproveitamento` | Registros faltantes | ~3% | Imputação pela média individual |
+| `Status_Final` | Dados ausentes | ~6% | Substituir por 9999 (marcador) |
 
 **Estratégia de Imputação**: Média individual do aluno (não global)
 - ✅ Preserva variabilidade individual
@@ -403,16 +402,9 @@ Precisão Alta (0.855):
 Nosso Balanço: 89.7% vs 85.5% → ÓTIMO
 ```
 
----
-
 ## 8. Matriz de Confusão (Interpretação Detalhada)
 
-```
-                Valor Predito
-                Aprovado  Reprovado
-Valor    Aprovado   602        68      (670 total)
-Real     Reprovado   60       411      (471 total)
-```
+<img width="630" height="500" alt="image" src="https://github.com/user-attachments/assets/2fa234bc-3166-43df-ae01-6dc43f289614" />
 
 ### Análise Célula por Célula
 
@@ -449,30 +441,14 @@ FN é mais custoso que FP em contexto educacional:
 A Curva ROC plota:
 - **Eixo X**: Taxa de Falsos Positivos (1 - Especificidade)
 - **Eixo Y**: Taxa de Verdadeiros Positivos (Recall)
+<img width="888" height="642" alt="image" src="https://github.com/user-attachments/assets/fd4f9aa0-3cc6-421c-b318-fff06730f7a4" />
 
 ```
-1.0 ┌─────────────────────────────┐
-    │                ╱             │
-    │              ╱               │
-    │            ╱ XGBoost         │
-    │          ╱   AUC=0.959       │
-    │        ╱                     │
-    │      ╱                       │
-    │    ╱                         │
-    │  ╱                           │
-0.5 │────────────────────────────  │ (Chance 50%)
-    │╱                             │
-    │                              │
-0.0 └──────────────────────────────┘
-    0.0                          1.0
-```
-
-**Interpretação**:
 - Curva mais próxima do canto superior esquerdo = melhor
 - AUC 0.959 significa: 95.9% de probabilidade modelo acertar em dois exemplos aleatórios
 
 ---
-
+```
 ## 10. Workflow Resumido em Pseudocódigo
 
 ```
