@@ -134,7 +134,7 @@ Regressão Logística: AUC 0.712 ✗
 classificador-risco-escolar/
 │
 ├── README.md                          
-│
+├── [TCC] - Carlos Magno Bernardino da Silva #TCC completo
 ├── docs
 │   ├── Metodologia.md                 # Descrição detalhada da metodologia
 │   ├── Resultados_Principais.md       # Tabelas e gráficos de resultados
