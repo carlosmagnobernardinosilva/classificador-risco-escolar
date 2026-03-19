@@ -131,40 +131,18 @@ Regressão Logística: AUC 0.712 ✗
 ## 📁 Estrutura do Repositório
 
 ```
-school-risk-classifier/
+classificador-risco-escolar/
 │
-├── README.md                          # Este arquivo
-├── TECHNICAL_DOCUMENTATION.md         # Detalhes técnicos completos
+├── README.md                          
 │
-├── docs/
-│   ├── TCC_Resumo_Executivo.pdf      # Versão resumida do trabalho
+├── docs
 │   ├── Metodologia.md                 # Descrição detalhada da metodologia
 │   ├── Resultados_Principais.md       # Tabelas e gráficos de resultados
-│   └── Recomendacoes.md              # Recomendações para implantação
 │
 ├── examples/
 │   ├── exemplo_preprocessamento.py    # Exemplo de pré-processamento
 │   ├── exemplo_treinamento.py         # Exemplo de treinamento do modelo
 │   └── exemplo_predicao.py            # Exemplo de uso em produção
-│
-├── notebooks/
-│   └── README.md                      # Instrução: Notebooks não inclusos
-│                                      # (contêm dados sensíveis)
-│
-├── src/
-│   ├── preprocessor.py                # Classe de pré-processamento
-│   ├── model_trainer.py               # Classe de treinamento
-│   ├── evaluator.py                   # Classe de avaliação
-│   └── utils.py                       # Funções auxiliares
-│
-├── tests/
-│   ├── test_preprocessor.py           # Testes unitários
-│   ├── test_model.py                  # Testes do modelo
-│   └── test_pipeline.py               # Testes de integração
-│
-├── requirements.txt                   # Dependências do projeto
-├── config.yaml                        # Configurações (exemplo)
-└── .gitignore                         # Exclusões (dados, notebooks)
 ```
 
 ---
