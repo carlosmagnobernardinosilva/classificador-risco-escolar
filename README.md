@@ -136,6 +136,7 @@ classificador-risco-escolar/
 │
 ├── README.md                          
 ├── [TCC] - Carlos Magno Bernardino da Silva #TCC completo
+├── Apresentação.pdf                   # Apresentação usada na defesa
 ├── docs
 │   ├── Metodologia.md                 # Descrição detalhada da metodologia
 │   ├── Resultados_Principais.md       # Tabelas e gráficos de resultados
